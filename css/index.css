@@ -45,13 +45,16 @@
     margin: 0;
     border: 1px solid;
     padding: 5px 15px;
-    color: rgb(160, 159, 159);
+    color: rgb(136, 135, 135) !important;
 }
 
 .contact-link {
     padding: 0;
 }
 
+.nav-link:hover{
+    color: #b3b3b3 !important;
+}
 
 
 /* WE MAKE BUSSINESS */
@@ -273,21 +276,21 @@
 .footer-social {
     width: 1080px;
     margin: 0 auto;
-    padding: 20px 0 20px 0;
-    align-items: flex-end;
-    flex-direction: row;
     display: flex;
+    padding: 20px 0 20px 0;
+    flex-direction: row;
     flex-basis: auto;
     justify-content: end;
     flex-grow: 1;
     align-items: center;
     list-style-type: none;
     list-style: none;
-    display: none;
-
 }
 
-
+#company-copy{
+    align-self: center;
+    margin-right: 28%;
+}
 
 .social-link {
     height: 35px;
@@ -328,7 +331,7 @@
         padding: 10px;
     }
 
-    .contract-text-link{
+    .contact-text-link{
         padding: 5px 10px;
     }
 
@@ -485,8 +488,12 @@
 
     .footer-social {
         width: 100%;
-        padding: 20px 20px 20px 0;
+        padding: 20px;
         align-items: flex-end;
+    }
+
+    #company-copy{
+        margin-right: 30%;
     }
 }
 
@@ -635,8 +642,11 @@
 
     .footer-social {
         width: 100%;
-        padding: 20px 20px 20px 0;
+        padding: 20px;
         align-items: flex-end;
+    }
+    #company-copy{
+        margin-right: 39%;
     }
 }
 
@@ -794,8 +804,12 @@
 
     .footer-social {
         width: 100%;
-        padding: 20px 20px 20px 0;
+        padding: 20px;
         align-items: flex-end;
+    }
+
+    #company-copy {
+        margin-right: 55%;
     }
 }
 
@@ -855,6 +869,9 @@
 
     .footer-social {
         width: 960px;
+    }
+    #company-copy {
+        margin-right: 25%;
     }
 }
 
